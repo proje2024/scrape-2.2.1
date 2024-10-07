@@ -1,0 +1,15 @@
+https://almogaz.com/rss/tech Egypt
+https://almogaz.com/rss Egypt
+https://almogaz.com/rss/talk-show Egypt
+https://almogaz.com/rss/crime Egypt
+https://almogaz.com/rss/politics Egypt
+https://kurier.at/stars-kultur/layout/xml/rss Austria
+https://kurier.at/xml/rss Austria
+https://kurier.at/podcasts/daily/layout/xml/rss Austria
+https://kurier.at/podcasts/kuriertohear/layout/xml/rss Austria
+https://kurier.at/layout/xml/rss Austria
+https://kurier.at/podcasts/dunkle-spuren/xml/rss Austria
+https://kurier.at/podcasts/ichweisswieesist/layout/xml/rss Austria
+https://kurier.at/podcasts/nachspielzeit/layout/xml/rss Austria
+https://kurier.at/podcasts/nachspielzeit/xml/rss Austria
+https://kurier.at/podcasts/xml/rss Austria

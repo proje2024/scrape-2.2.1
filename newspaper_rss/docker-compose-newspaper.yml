@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  newspaper_spider:
+    build:
+      context: .
+      dockerfile: Dockerfile.newspaper_spider
+    volumes:
+      - .:/app
+      - ./data/output/:/app/data/output/
+    env_file:
+      - .env
+    command: ["scrapy", "crawl", "newspaper_spider"]

@@ -1,0 +1,29 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+
+COPY . .
+
+# Create the directory for the SQLite database
+RUN mkdir -p /app/newspaper_rss
+
+# Copy the SQLite database
+COPY newspaper_rss/sqlite.db /app/newspaper_rss/sqlite.db
+
+# Copy the split_urls_rss.py.py script
+COPY split_urls_rss.py /app/split_urls_rss.py.py
+
+# Copy the entrypoint script
+COPY run_news_spider.sh /app/run_news_spider.sh
+
+# Ensure the entrypoint script is executable
+RUN chmod +x /app/run_news_spider.sh
+
+# Use the entrypoint script as the default command
+ENTRYPOINT ["/app/run_news_spider.sh"]
+
+# Default command to run Scrapy spider
+CMD ["scrapy", "crawl", "news_spider", "-a", "filename=filename_to_use.txt"]

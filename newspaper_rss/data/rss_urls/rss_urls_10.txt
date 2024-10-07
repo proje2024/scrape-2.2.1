@@ -1,0 +1,7 @@
+https://kurier.at/podcasts/daily/xml/rss Austria
+https://kurier.at/podcasts/layout/xml/rss Austria
+https://kurier.at/podcasts/fakebusters/layout/xml/rss Austria
+http://feeds.feedburner.com/Kurier-sportpodcast Austria
+https://kurier.at/xml/rssd Austria
+https://kurier.at/podcasts/dunkle-spuren/layout/xml/rss Austria
+https://kurier.at/podcasts/allesaussercorona/layout/xml/rss Austria

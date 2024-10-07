@@ -1,0 +1,15 @@
+https://mumbrella.com.au/feed?post_type=jobs Australia
+http://mumbrella.com.au/feed?post_type=jobs Australia
+https://www.mopo.de/category/podcast/feed/ Germany
+https://dx8um8x08u61i.cloudfront.net/blog/author/sladmin/feed/ Germany
+https://www.mopo.de/feed/podcast/der-tag-an-dem/index.rss Germany
+https://www.mopo.de/category/podcast/herz-schlag-verein/feed/ Germany
+https://www.mopo.de/feed/podcast/wie-ist-die-lage/index.rss Germany
+https://www.mopo.de/category/podcast/das-hsv-spiel-meines-lebens/feed/ Germany
+https://www.mopo.de/feed/ Germany
+https://www.mopo.de/category/podcast/rudelbildung/feed/ Germany
+https://www.mopo.de/category/podcast/das-ziel-ist-im-weg/feed/ Germany
+https://www.mopo.de/feed/podcast/die-zweite-luft/index.rss Germany
+https://www.mopo.de/category/podcast/der-kleine-salon/feed/ Germany
+https://www.mopo.de/feed/podcast/index.rss Germany
+https://www.mopo.de/category/podcast/2-retter-1-mikro/feed/ Germany

@@ -1,0 +1,15 @@
+https://www.geenstijl.nl/feeds/recent.atom Netherlands
+https://www.elbilad.net/feed Algeria
+https://www.tsa-algerie.com/feed/ Algeria
+https://www.algerie-dz.com/spip.php?page=backend Algeria
+https://dvhn.nl/api/feed/rss Netherlands
+https://liberte-algerie.com/feed Algeria
+https://www.liberte-algerie.com/feed Algeria
+https://mensenlinq.nl/category/rouw/feed Netherlands
+https://mensenlinq.nl/category/in-memoriam/feed Netherlands
+https://mensenlinq.nl/category/uitvaart/feed Netherlands
+https://www.yourgibraltartv.com/blogs?format=feed&type=atom Gibraltar
+https://www.yourgibraltartv.com/blogs?format=feed&type=rss Gibraltar
+https://www.yourgibraltartv.com/?format=feed&type=rss Gibraltar
+https://www.yourgibraltartv.com/?format=feed&type=atom Gibraltar
+https://www.hmetro.co.zw/feed/ Zimbabwe

@@ -1,0 +1,13 @@
+scrapy
+feedparser
+beautifulsoup4
+python-dotenv
+langdetect
+python-dateutil
+pytz
+requests
+feedsearch
+urllib3
+werkzeug==0.16.1
+pycountry
+langid

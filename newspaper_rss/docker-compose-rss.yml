@@ -1,0 +1,202 @@
+version: "3"
+
+services:
+  rss_spider_1:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_1.txt",
+      ]
+
+  rss_spider_2:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_2.txt",
+      ]
+
+  rss_spider_3:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_3.txt",
+      ]
+
+  rss_spider_4:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_4.txt",
+      ]
+
+  rss_spider_5:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_5.txt",
+      ]
+
+  rss_spider_6:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_6.txt",
+      ]
+
+  rss_spider_7:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_7.txt",
+      ]
+
+  rss_spider_8:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_8.txt",
+      ]
+
+  rss_spider_9:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_9.txt",
+      ]
+
+  rss_spider_10:
+    build:
+      context: .
+      dockerfile: Dockerfile.rss_spider
+    volumes:
+      - .:/app
+      - ./newspaper_rss/sqlite.db:/app/newspaper_rss/sqlite.db
+      - ./newspaper_rss:/app/newspaper_rss
+      - ./data/newspaper_urls:/app/data/newspaper_urls
+    env_file:
+      - .env
+    command:
+      [
+        "scrapy",
+        "crawl",
+        "rss_spider",
+        "-a",
+        "filename=data/newspaper_urls/newspaper_urls_10.txt",
+      ]
